@@ -1,30 +1,53 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    
+    
+    <router-link to="/Conductores"></router-link>
+    <router-link to="/Solicitudes"></router-link>
+    <router-link to="/DatosConductores"></router-link>
+    <router-link to="/DatosCliente"></router-link>
+    <router-link to="/Historial"></router-link>
+    <router-link to="/Pqrs"></router-link>
+    <router-link to="/CerrarSesion"></router-link>
+    <router-link to="/Manifiesto"></router-link>
+    <router-link to="/MasDatos"></router-link>
+    <router-link to="/MasDatosSolicitu"></router-link>
+
+    
+    <router-view/>
+
+
+   
+    
+    
   </nav>
-  <router-view/>
+
+
+  
+
+
 </template>
+  
+<script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+    
+ 
+</script>
 
-nav {
-  padding: 30px;
-}
+  
+    
+    
+    
+    
+    
+  
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+    
+    
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+
+
+
+
+
+
